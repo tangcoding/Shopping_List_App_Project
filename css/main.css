@@ -1,0 +1,102 @@
+html, body{
+	margin: 0;
+	padding: 0;
+	font-size: 1em;
+	text-align: center;
+	box-sizing: border-box;
+	font-family: times;
+}
+
+body{
+	min-width: 350px;
+}
+
+header{
+	margin-top: 50px;
+	width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+header img{
+	width: 120px;
+}
+
+header h2{
+	font-size: 2em;
+	color: #0066CC;
+	text-transform: uppercase;
+	text-shadow: 2px 2px 3px grey;
+}
+
+header p{
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+.input_area, .output_area{
+	margin: 35px auto;
+	width: 350px;
+}
+
+.input_area{
+	padding: 25px;
+	border-bottom: 2px solid grey;
+	border-top: 1px solid grey;
+	box-shadow: 0px 5px 5px -5px #aaa; 
+}
+
+
+
+
+.add_button, .reset_button{
+	margin: 15px auto;
+	height: 25px;
+	width: 100px;
+	border-radius: 10px;
+	background-color: #B0C4DE;
+	border-style: none;
+	cursor: pointer;
+}
+
+
+input{
+	margin: 15px;
+	width: 200px;
+	height: 25px;
+	border-radius: 10px;
+	border: 1px solid grey;
+	text-align: center;
+}
+
+
+.output_line{
+	margin: 20px auto;
+	background-color: #ccc;
+	border-radius: 5px;
+	width: 100%;
+
+}
+
+.check, .delete, .item{
+	display: inline-block;
+	font-size: 1.5em;
+}
+
+
+.check, .delete{
+	cursor: pointer;
+	margin-right: 35px;
+	margin-left: 35px;
+}
+
+.check{
+	color: green;
+
+}
+
+.delete{
+	color: red;
+}
+
+
